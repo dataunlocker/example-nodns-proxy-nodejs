@@ -1,0 +1,30 @@
+{
+  "name": "example-nodns-proxy-nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An example of the reverse proxy you can set up on your side to talk to [DataUnlocker](https://dataunlocker.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dataunlocker/example-nodns-proxy-nodejs.git"
+  },
+  "keywords": [],
+  "author": "DataUnlocker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dataunlocker/example-nodns-proxy-nodejs/issues"
+  },
+  "homepage": "https://github.com/dataunlocker/example-nodns-proxy-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "@types/express-http-proxy": "^1.6.1",
+    "@types/node": "^14.14.7"
+  }
+}
